@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f5dc;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    width: 25em;
+    height: 40em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    border-radius: 1em;
+}
+
+.tela {
+    display: flex;
+    background: #fff;
+    height: 7em;
+    border-radius: 1em;
+    width: 95%;
+    margin-top: 1em;
+}
+
+button {
+    font-size: 2em;
+    padding: .9em;
+}
+
+
+
+/* .numeros {
+    display: flex;
+    flex-direction: row;
+} */
+
+.operadores {
+    display: flex;
+    flex-direction: column;
+
+}
